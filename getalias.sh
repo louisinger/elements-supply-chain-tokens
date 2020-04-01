@@ -1,6 +1,6 @@
 #!/bin/bash
 WORKING_DIR=$(pwd)
-PRODUCTOR_DIR="$WORKING_DIR/productor-node"
+PRODUCER_DIR="$WORKING_DIR/producer-node"
 NGO_DIR="$WORKING_DIR/ngo-node"
 PATIENT_DIR="$WORKING_DIR/patient-node"
 BITCOIN_DIR="$WORKING_DIR/bitcoin-node"
@@ -11,8 +11,8 @@ echo "--------------------------------------------------------------------------
 echo "Copy and paste the following lines in your ~/.bashrc file. Then use \"source ~/.bashrc\" and enjoy!"
 echo "---------------------------------------------------------------------------------------------------"
 
-echo "alias productord=\"elementsd -datadir=$PRODUCTOR_DIR\""
-echo "alias productor-cli=\"elements-cli -datadir=$PRODUCTOR_DIR\""
+echo "alias producerd=\"elementsd -datadir=$PRODUCER_DIR\""
+echo "alias producer-cli=\"elements-cli -datadir=$PRODUCER_DIR\""
 
 echo "alias ngod=\"elementsd -datadir=$NGO_DIR\""
 echo "alias ngo-cli=\"elements-cli -datadir=$NGO_DIR\""
